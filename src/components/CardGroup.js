@@ -6,18 +6,18 @@ export default class CardGroup extends Component {
         return (
             <div style={styles.container}>
                 <Card
-                    text={"sample card 1"}
-                    buttonText={"sample button 1"}
+                    text={"BOX 1"}
+                    buttonText={"Button 1"}
                     content={"Nostrud ipsum nostrud eu occaecat."}
                 />
                 <Card
-                    text={"sample card 2"}
-                    buttonText={"sample button 2"}
+                    text={"BOX 2"}
+                    buttonText={"Button 2"}
                     content={"Nostrud ipsum nostrud eu occaecat."}
                 />
                 <Card
-                    text={"sample card 3"}
-                    buttonText={"sample button 3"}
+                    text={"BOX 3"}
+                    buttonText={"Button 3"}
                     content={"Nostrud ipsum nostrud eu occaecat."}
                 />
             </div>
@@ -28,6 +28,8 @@ export default class CardGroup extends Component {
 const styles = {
     container: {
         display: "flex",
+        background-attachment:fixed;
+	background-size:cover;
         width: "80%",
         flexDirection: "row",
         alignItems: "center",
