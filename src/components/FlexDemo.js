@@ -9,7 +9,8 @@ export default class FlexDemo extends Component {
                         src="https://source.unsplash.com/random"
                         width="40%"></img>
                     <div className={styles.subText}>
-                        <h1>Flex Box 1 Demo</h1>
+            <h1 id="titleFlex Box 1 Demo" onmouseover="changeToBlueColor()" onmouseout="changeToBlackColor()">Flex Box 1 Demo</h1>
+                        
                         <p>
                             Aliquip ea culpa dolore ut culpa culpa incididunt
                             minim culpa qui elit veniam ut. Excepteur irure
