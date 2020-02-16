@@ -24,5 +24,11 @@
 img {
     max-height: 100%;
     margin: auto;
+    background-attachment:fixed;
+	background-size:cover;
     object-fit: cover;
+}
+.hover {
+    position: relative;
+    top: -5px; /* this will raise the element */
 }
