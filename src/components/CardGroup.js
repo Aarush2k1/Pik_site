@@ -28,8 +28,6 @@ export default class CardGroup extends Component {
 const styles = {
     container: {
         display: "flex",
-        background-attachment:fixed;
-	background-size:cover;
         width: "80%",
         flexDirection: "row",
         alignItems: "center",
