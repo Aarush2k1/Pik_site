@@ -22,11 +22,10 @@
     margin: auto;
 }
 img {
-    max-height: 100%;
-    margin: auto;
+    height:500px;
     background-attachment:fixed;
-	background-size:cover;
-    object-fit: cover;
+    background-size:cover;
+    width:inherit;
 }
 .hover {
     position: relative;
