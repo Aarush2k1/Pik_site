@@ -6,7 +6,7 @@ export default class FlexDemo extends Component {
             <div className={styles.container}>
                 <div className={styles.subContainer}>
                     <img
-                        src="images/Demo1.jpg"
+                        src="images/Demo1.jpeg"
                         width="40%"></img>
                     <div className={styles.subText}>
             <h1 onmouseover="this.className='hover';" onmouseout="this.className='';">Flex Box 1</h1>
@@ -37,7 +37,7 @@ export default class FlexDemo extends Component {
                         </p>
                     </div>
                     <img
-                        src="images/Demo2.jpg"
+                        src="images/Demo2.jpeg"
                          width="40%"
                         ></img>
                 </div>
