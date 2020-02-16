@@ -12,7 +12,7 @@ class CarouselComponent extends React.Component {
                         alt="Carousel Image 1"
                         className="carousel-img"
                         height="460px"
-                        src="https://source.unsplash.com/random"
+                        src="images/Spot.jpg" width="400"height="400"
                     />
                 </div>
                 <div>
