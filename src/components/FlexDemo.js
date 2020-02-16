@@ -9,8 +9,8 @@ export default class FlexDemo extends Component {
                         src="https://source.unsplash.com/random"
                         width="40%"></img>
                     <div className={styles.subText}>
-            <h1 >Flex Box 1 Demo</h1>
-                        <li onmouseover="this.className='hover';" onmouseout="this.className='';">Home</li>
+            <h1 onmouseover="this.className='hover';" onmouseout="this.className='';">Flex Box 1 Demo</h1>
+                        
                         <p>
                             Aliquip ea culpa dolore ut culpa culpa incididunt
                             minim culpa qui elit veniam ut. Excepteur irure
@@ -38,21 +38,11 @@ export default class FlexDemo extends Component {
                     </div>
                     <img
                         src="https://source.unsplash.com/random"
-                        height="70%" width="40%"
+                         width="40%"
                         ></img>
                 </div>
             </div>
         );
     }
 }
-const styles = {
-    container: {
-        
-        background-attachment:fixed;
-	background-size:cover;
-        width: "80%",
-        flexDirection: "row",
-        alignItems: "center",
-        justifyContent: "space-between",
-        marginTop: 30
-    }
+
