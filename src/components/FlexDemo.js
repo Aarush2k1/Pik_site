@@ -45,3 +45,14 @@ export default class FlexDemo extends Component {
         );
     }
 }
+const styles = {
+    container: {
+        
+        background-attachment:fixed;
+	background-size:cover;
+        width: "80%",
+        flexDirection: "row",
+        alignItems: "center",
+        justifyContent: "space-between",
+        marginTop: 30
+    }
