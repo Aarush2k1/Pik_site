@@ -36,10 +36,7 @@ export default class FlexDemo extends Component {
                             cillum. Ea ex nostrud occaecat consectetur et.
                         </p>
                     </div>
-                    <img
-                        src="images/Demo2.jpeg"
-                         width="40%"
-                        ></img>
+                    <img src="images/Demo2.jpeg" width="100%" height="auto"                ></img>
                 </div>
             </div>
         );
